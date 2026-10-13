@@ -32,4 +32,4 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ems-web-actions:v1    
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/ems-web-actions:v1.3  
